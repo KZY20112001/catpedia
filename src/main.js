@@ -3,6 +3,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import VueSweetAlert2 from 'vue-sweetalert2'
 import {
   faAngleDoubleLeft,
   faHouse,
@@ -11,7 +12,9 @@ import {
   faList,
   faPlus,
   faShieldCat,
+  faMagnifyingGlass,
 } from '@fortawesome/free-solid-svg-icons'
+
 library.add(
   faPlus,
   faList,
@@ -19,9 +22,10 @@ library.add(
   faHouse,
   faAngleDoubleLeft,
   faCat,
-  faShieldCat
+  faShieldCat,
+  faMagnifyingGlass
 )
 
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
-app.use(router).mount('#app')
+app.use(router).use(VueSweetAlert2).mount('#app')

@@ -1,8 +1,10 @@
 <template>
-  <Header />
-  <Sidebar />
-  <div>
-    <router-view />
+  <div class="container">
+    <Header />
+    <Sidebar />
+    <div>
+      <router-view />
+    </div>
   </div>
 </template>
 
