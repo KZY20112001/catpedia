@@ -40,12 +40,12 @@ export default {
 .nav {
   border-radius: 5px;
   background-color: lightcoral;
-  padding: 20px;
+  padding: 10px 10px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   margin: 10px 20px;
   color: whitesmoke;
   border: solid;

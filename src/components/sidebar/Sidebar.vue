@@ -17,10 +17,10 @@ export default {
       <span v-else><font-awesome-icon icon="fa-solid fa-shield-cat" /></span>
     </h1>
 
-    <SidebarLink to="/cat" icon="fa-solid fa-cat"> Breeds</SidebarLink>
-    <SidebarLink to="/random" icon="fa-solid fa-message">Cat Facts</SidebarLink>
-    <SidebarLink to="/category" icon="fa-solid fa-list">Category</SidebarLink>
-    <SidebarLink to="/" icon="fa-solid fa-plus">Add Cats!</SidebarLink>
+    <SidebarLink to="/cat" icon="fa-solid fa-cat" @click="toggleSidebar"> Breeds</SidebarLink>
+    <SidebarLink to="/random" icon="fa-solid fa-message" @click="toggleSidebar">Cat Facts</SidebarLink>
+    <SidebarLink to="/category" icon="fa-solid fa-list" @click="toggleSidebar">Category</SidebarLink>
+    <SidebarLink to="/add" icon="fa-solid fa-plus" @click="toggleSidebar">Add Cats!</SidebarLink>
 
     <span
       class="collapse-icon"
@@ -34,7 +34,7 @@ export default {
 
 <style>
 :root {
-  --sidebar-bg-color: #2f855a;
+  --sidebar-bg-color: #318058;
   --sidebar-item-hover: lightseagreen;
   --sidebar-item-active: rgb(32, 204, 204);
 }
@@ -57,6 +57,9 @@ export default {
 }
 .sidebar h1 {
   height: 2.5em;
+  font-family: Poppins;
+  font-weight: 700; 
+  color: lightgoldenrodyellow;
 }
 .collapse-icon {
   position: absolute;

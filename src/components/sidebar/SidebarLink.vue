@@ -10,6 +10,7 @@ export default {
   setup(props) {
     const route = useRoute()
     const isActive = computed(() => route.path === props.to)
+
     return { isActive, collapsed }
   },
 }
@@ -40,7 +41,8 @@ export default {
   align-items: center;
   cursor: pointer;
   position: relative;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 20px; 
   user-select: none;
   margin: 0.1em 0;
   padding: 20px 10px;
