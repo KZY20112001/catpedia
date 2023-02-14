@@ -33,8 +33,9 @@ export default {
 }
 
 .text {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 .nav {

@@ -42,14 +42,15 @@ export default {
   cursor: pointer;
   position: relative;
   font-weight: 500;
-  font-size: 20px; 
+  font-size: 25px;
   user-select: none;
   margin: 0.1em 0;
-  padding: 20px 10px;
+  padding: 30px 10px;
   border-radius: 0.25em;
   height: 1.5em;
-  color: white;
+  color: lightcyan;
   text-decoration: none;
+  font-weight: bold;
 }
 .link:hover {
   background-color: var(--sidebar-item-hover);

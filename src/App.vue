@@ -3,10 +3,8 @@
   <Sidebar />
   <div>
     <router-view />
-</div> 
-  
+  </div>
 </template>
-
 
 <script>
 import Header from './components/header/Header.vue'
@@ -20,7 +18,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container{
-
+.container {
 }
 </style>
