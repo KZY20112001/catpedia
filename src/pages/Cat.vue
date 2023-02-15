@@ -17,6 +17,7 @@ import SearchDropdown from 'search-dropdown-vue'
         :options="cats"
         v-on:selected="onSelectedOption"
         maxItem="10"
+        class="drop-down"
       >
       </SearchDropdown>
     </div>
@@ -25,6 +26,7 @@ import SearchDropdown from 'search-dropdown-vue'
 
 <script>
 export default {
+
   data() {
     return {
       isLoading: true,
@@ -101,6 +103,7 @@ export default {
 }
 </script>
 
+
 <style lang="scss" scoped>
 .container {
   background-color: rgb(232, 247, 247);
@@ -123,5 +126,11 @@ export default {
 .select-menu {
   display: flex;
   justify-content: center;
+}
+
+
+.drop-down{
+  background-color: whitesmoke;
+  color: lightblue;
 }
 </style>
