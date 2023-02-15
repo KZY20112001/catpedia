@@ -16,6 +16,7 @@ import SearchDropdown from 'search-dropdown-vue'
       <SearchDropdown
         :options="cats"
         v-on:selected="onSelectedOption"
+        placeholder="Enter or search a cat breed"
         maxItem="10"
         class="drop-down"
       >
@@ -26,7 +27,6 @@ import SearchDropdown from 'search-dropdown-vue'
 
 <script>
 export default {
-
   data() {
     return {
       isLoading: true,
@@ -103,7 +103,6 @@ export default {
 }
 </script>
 
-
 <style lang="scss" scoped>
 .container {
   background-color: rgb(232, 247, 247);
@@ -128,8 +127,7 @@ export default {
   justify-content: center;
 }
 
-
-.drop-down{
+.drop-down {
   background-color: whitesmoke;
   color: lightblue;
 }
