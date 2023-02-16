@@ -8,3 +8,8 @@ To run this locally, you can run
 ### `npm run dev`
 
 to run the application in development mode.
+
+
+Or you can access it directly through this URL: 
+
+https://catpedia-two.vercel.app/
