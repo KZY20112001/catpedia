@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+CATPEDIA is a simple frontend website built using Vue3 (and css) as a project while learning Vue.
+Users can enjoy cute Cat pictures/gifs at the home page. If desired, they can navigate to Breeds page and search for their favourite cat breed to look at their details. Additionally, they can check out cat facts by visitng the random facts page.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+In this project, the APIs used are thecatapi and catfact.ninja. Components such as Sidebar and Header are implemented to be reusable. And fetching data from API is done directly at the frontend page itself.
 
-## Recommended IDE Setup
+To run this locally, you can run
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### `npm run dev`
+
+to run the application in development mode.

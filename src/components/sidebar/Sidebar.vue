@@ -23,9 +23,6 @@ export default {
     <SidebarLink to="/random" icon="fa-solid fa-message" @click="toggleSidebar"
       >Cat Facts</SidebarLink
     >
-    <SidebarLink to="/add" icon="fa-solid fa-plus" @click="toggleSidebar"
-      >Add Cats!</SidebarLink
-    >
 
     <span
       class="collapse-icon"
